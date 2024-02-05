@@ -1,0 +1,51 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="index.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <form name="registration" id="registration">
+      <div><input type="text" name="firstName" placeholder="firstName" /></div>
+      <div><input type="text" name="lastName" placeholder="lastName" /></div>
+      <div>
+        <input type="email" name="email" id="email" placeholder="email" />
+      </div>
+      <div>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="password"
+        />
+      </div>
+      <div>
+        <input
+          type="password"
+          name="confirmPassword"
+          id="confirmPassword"
+          placeholder="confirm password"
+        />
+      </div>
+      <div><input type="text" name="textArea" placeholder="Text Area" /></div>
+      <button>send</button>
+    </form>
+
+    <p id="status"></p>
+
+    <h2>მეორე დავალება</h2>
+
+    <input type="text" id="inputText" placeholder="Enter text" />
+    <button onclick="addItem()">Add to List</button>
+
+    <ul id="dynamicList"></ul>
+
+    <h3>მესამე დავალება</h3>
+
+    <ul id="filteredItemList"></ul>
+  </body>
+</html>
